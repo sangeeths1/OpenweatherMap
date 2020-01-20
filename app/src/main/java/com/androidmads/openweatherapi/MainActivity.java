@@ -126,6 +126,7 @@ public class MainActivity extends FragmentActivity implements
     }
 
     void getCurrentData() {
+        //Value übergabe
         lat = String.valueOf(laChoose);
         lon = String.valueOf(loChoose);
 
