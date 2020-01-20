@@ -282,7 +282,7 @@ public class MainActivity extends FragmentActivity implements
         googleApiClient.connect();
     }
 
-
+    //OnLoaction
     @Override
     public void onLocationChanged(Location location) {
         if (currentUserLocationMarker != null)
@@ -304,7 +304,7 @@ public class MainActivity extends FragmentActivity implements
         }
 
     }
-
+    //Status Change on Map
     @Override
     public void onStatusChanged(String provider, int status, Bundle extras) {
 
