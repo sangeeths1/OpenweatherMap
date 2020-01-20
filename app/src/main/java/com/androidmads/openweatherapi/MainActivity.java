@@ -165,6 +165,7 @@ public class MainActivity extends FragmentActivity implements
                             "\n" +
                             "Pressure: " +
                             weatherResponse.main.pressure;
+                    //rain
                     if(weatherResponse.weather.get(0).main.equalsIgnoreCase("Rain"))
                     {
                         Vibrator v = (Vibrator) getSystemService(Context.VIBRATOR_SERVICE);
