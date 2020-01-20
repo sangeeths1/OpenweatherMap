@@ -97,6 +97,7 @@ public class MainActivity extends FragmentActivity implements
         FontUtils fontUtils = new FontUtils();
         fontUtils.applyFontToView(weatherData, typeface);
 
+        //button Weather
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
