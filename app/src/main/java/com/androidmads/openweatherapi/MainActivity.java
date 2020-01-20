@@ -80,6 +80,7 @@ public class MainActivity extends FragmentActivity implements
     private static final int Request_User_Location_Code = 99;
 
     @Override
+    //onCreate
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
