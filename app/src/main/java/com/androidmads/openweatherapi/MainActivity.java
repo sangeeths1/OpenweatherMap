@@ -179,6 +179,7 @@ public class MainActivity extends FragmentActivity implements
                 }
             }
 
+            //On Failure
             @Override
             public void onFailure(@NonNull Call<WeatherResponse> call, @NonNull Throwable t) {
                 weatherData.setText(t.getMessage());
