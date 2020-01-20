@@ -134,6 +134,7 @@ public class MainActivity extends FragmentActivity implements
         WeatherService service = retrofit.create(WeatherService.class);
         Call<WeatherResponse> call = service.getCurrentWeatherData(lat, lon, AppId);
         call.enqueue(new Callback<WeatherResponse>() {
+            //WeatherData
             @Override
             public void onResponse(@NonNull Call<WeatherResponse> call, @NonNull Response<WeatherResponse> response) {
                 if (response.code() == 200) {
