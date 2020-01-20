@@ -105,6 +105,7 @@ public class MainActivity extends FragmentActivity implements
         });
     }
 
+    //calc Distance
     private void calcDistance() {
         Location loc1 = new Location("");
         loc1.setLatitude(laOwn);
