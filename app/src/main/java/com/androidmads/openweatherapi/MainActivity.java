@@ -333,6 +333,7 @@ public class MainActivity extends FragmentActivity implements
         }
     }
 
+    //OnConnect
     @Override
     public void onConnectionSuspended(int i) {
 
